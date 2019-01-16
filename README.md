@@ -1,4 +1,4 @@
-# strapi-provider-upload-local
+# strapi-provider-upload-digitalocean
 
 ## Resources
 
