@@ -25,12 +25,12 @@ npm i strapi-provider-upload-do
 module.exports = {
   provider: "do",
   providerOptions: {
-    key: process.env.SPACE_ACCESS_KEY,
-    secret: process.env.SPACE_SECRET_KEY,
-    endpoint: process.env.SPACE_ENDPOINT,
-    space: process.env.SPACE_BUCKET,
-    cdn: process.env.SPACE_CDN,
-    directory: process.env.SPACE_DIRECTORY
+    key: process.env.DO_SPACE_ACCESS_KEY,
+    secret: process.env.DO_SPACE_SECRET_KEY,
+    endpoint: process.env.DO_SPACE_ENDPOINT,
+    space: process.env.DO_SPACE_BUCKET,
+    cdn: process.env.DO_SPACE_CDN,
+    directory: process.env.DO_SPACE_DIRECTORY
   }
 }
 ```
@@ -38,18 +38,18 @@ module.exports = {
 3. Create `.env` and add to them 
 
 ```
-SPACE_ACCESS_KEY
-SPACE_SECRET_KEY
-SPACE_ENDPOINT
-SPACE_BUCKET
-SPACE_DIRECTORY
+DO_SPACE_ACCESS_KEY
+DO_SPACE_SECRET_KEY
+DO_SPACE_ENDPOINT
+DO_SPACE_BUCKET
+DO_SPACE_DIRECTORY
 ```
 
 with values obtained from tutorial:
 
 > https://www.digitalocean.com/community/tutorials/how-to-create-a-digitalocean-space-and-api-key
 
-Parameter `SPACE_DIRECTORY` is optional and you can ommit them both in `.env` and `settings`.
+Parameter `DO_SPACE_DIRECTORY` is optional and you can ommit them both in `.env` and `settings`.
 
 ## Resources
 
