@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-do",
-  "version": "3.0.0-beta.20.3",
+  "version": "3.3.4",
   "description": "Digital ocean spaces provider for Strapi upload plugin",
   "homepage": "http://strapi.io",
   "keywords": [
@@ -25,13 +25,6 @@
     "name": "Qusion s.r.o.",
     "url": "https://qusion.com"
   },
-  "maintainers": [
-    {
-      "name": "Stanley Horwood",
-      "email": "stanley@hsjm.io",
-      "url": "https://hsjm.io"
-    }
-  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/shorwood/strapi-provider-upload-do.git"
