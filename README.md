@@ -8,8 +8,8 @@ This provider will upload to the space using the AWS S3 API.
 - **secret** : [Space access secret](https://cloud.digitalocean.com/account/api/tokens)
 - **endpoint** : Base URL of the space (e.g. 'fra.digitaloceanspaces.com')
 - **space** : Name of the space in the Digital Ocean panel.
-- **directory** : Optional name of the sub-directory you want to store your files in.
-- **cdn** : Optional CDN Endpoint - URL of the cdn of the space (Optionnal - e.g. 'https://cdn.example.com')
+- **directory** : Name of the sub-directory you want to store your files in. (Optionnal - e.g. '/example')
+- **cdn** : CDN Endpoint - URL of the cdn of the space (Optionnal - e.g. 'https://cdn.example.com')
 
 ## How to use
 
@@ -50,7 +50,7 @@ with values obtained from tutorial:
 
 > https://www.digitalocean.com/community/tutorials/how-to-create-a-digitalocean-space-and-api-key
 
-Parameter `DO_SPACE_DIRECTORY` is optional and you can ommit them both in `.env` and `settings`.
+Parameter `DO_SPACE_DIRECTORY` and `DO_SPACE_CDN` is optional and you can ommit them both in `.env` and `settings`.
 
 ## Resources
 
