@@ -4,12 +4,12 @@
 This provider will upload to the space using the AWS S3 API.
 
 ## Parameters
-- key: [Space access key](https://cloud.digitalocean.com/account/api/tokens)
-- secret: [Space access secret](https://cloud.digitalocean.com/account/api/tokens)
-- endpoint: URL of the space (e.g. 'fra.digitaloceanspaces.com')
-- cds: CDN Endpoint - URL of the cdn of the space (Optionnal - e.g. 'https://cdn.example.com')
-- space: Name of the space in the Digital Ocean panel
-- directory: Optional name of directory when you want to store your files
+- *key*: [Space access key](https://cloud.digitalocean.com/account/api/tokens)
+- *secret*: [Space access secret](https://cloud.digitalocean.com/account/api/tokens)
+- *endpoint*: URL of the space (e.g. 'fra.digitaloceanspaces.com')
+- *cdn*: CDN Endpoint - URL of the cdn of the space (Optionnal - e.g. 'https://cdn.example.com')
+- *space*: Name of the space in the Digital Ocean panel
+- *directory*: Optional name of directory when you want to store your files
 
 ## How to use
 
@@ -29,6 +29,7 @@ module.exports = {
     secret: process.env.SPACE_SECRET_KEY,
     endpoint: process.env.SPACE_ENDPOINT,
     space: process.env.SPACE_BUCKET,
+    cdn: process.env.SPACE_CDN,
     directory: process.env.SPACE_DIRECTORY
   }
 }
