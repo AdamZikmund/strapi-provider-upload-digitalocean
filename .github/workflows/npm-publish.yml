@@ -31,18 +31,3 @@ jobs:
         with:
           registry: https://registry.npmjs.org/
           token: ${{ secrets.NPM_TOKEN }}
-          
-  publish-gpr:
-    name: Publishing Node.js Package to GitHub package registry.
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-      - run: npm install
-      - run: npm test
-      - uses: JS-DevTools/npm-publish@v1
-        with:
-          registry: https://npm.pkg.github.com/
-          token: ${{ secrets.GITHUB_TOKEN }}
