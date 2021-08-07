@@ -6,10 +6,10 @@ This provider will upload to the space using the AWS S3 API.
 ## Parameters
 - **key** : [Space access key](https://cloud.digitalocean.com/account/api/tokens)
 - **secret** : [Space access secret](https://cloud.digitalocean.com/account/api/tokens)
-- **endpoint** : Base URL of the space (e.g. 'fra.digitaloceanspaces.com')
+- **endpoint** : Base URL of the space (e.g. `fra.digitaloceanspaces.com`)
 - **space** : Name of the space in the Digital Ocean panel.
-- **directory** : Name of the sub-directory you want to store your files in. (Optionnal - e.g. '/example')
-- **cdn** : CDN Endpoint - URL of the cdn of the space (Optionnal - e.g. 'cdn.example.com')
+- **directory** : Name of the sub-directory you want to store your files in. (Optionnal - e.g. `/example`)
+- **cdn** : CDN Endpoint - URL of the cdn of the space (Optionnal - e.g. `cdn.example.com`)
 
 ## How to use
 
