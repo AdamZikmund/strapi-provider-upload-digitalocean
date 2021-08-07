@@ -66,3 +66,7 @@ Parameter `DO_SPACE_DIRECTORY` and `DO_SPACE_CDN` is optional and you can ommit 
 ## Contributors
 <a href="https://github.com/AdamZikmund"><img src="https://avatars.githubusercontent.com/u/4062779?v=3" title="AdamZikmund" width="80" height="80"></a>
 <a href="https://github.com/gustawdaniel"><img src="https://avatars.githubusercontent.com/u/16663028?v=3" title="gustawdaniel" width="80" height="80"></a>
+<a href="https://github.com/latenssi"><img src="https://avatars.githubusercontent.com/u/1526792?v=4" title="latenssi" width="80" height="80"></a>
+<a href="https://github.com/malithmcr"><img src="https://avatars.githubusercontent.com/u/4549859?v=4" title="malithmcr" width="80" height="80"></a>
+<a href="https://github.com/tommasongr"><img src="https://avatars.githubusercontent.com/u/25225746?v=4" title="tommasongr" width="80" height="80"></a>
+<a href="https://github.com/maxep"><img src="https://avatars.githubusercontent.com/u/6815992?v=4" title="maxep" width="80" height="80"></a>
