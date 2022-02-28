@@ -18,6 +18,12 @@ This provider will upload to the space using the AWS S3 API.
 ```
 npm i strapi-provider-upload-do
 ```
+```
+yarn add strapi-provider-upload-do
+```
+```
+pnpm add strapi-provider-upload-do
+```
 
 2. Create or update config in `./config/plugins.js` with content
 
@@ -28,12 +34,12 @@ module.exports = ({env}) => ({
     config: {
       provider: "strapi-provider-upload-do", 
       providerOptions: {
-        key: process.env.DO_SPACE_ACCESS_KEY,
-        secret: process.env.DO_SPACE_SECRET_KEY,
-        endpoint: process.env.DO_SPACE_ENDPOINT,
-        space: process.env.DO_SPACE_BUCKET,
-        directory: process.env.DO_SPACE_DIRECTORY,
-        cdn: process.env.DO_SPACE_CDN,
+        key: env.DO_SPACE_ACCESS_KEY,
+        secret: env.DO_SPACE_SECRET_KEY,
+        endpoint: env.DO_SPACE_ENDPOINT,
+        space: env.DO_SPACE_BUCKET,
+        directory: env.DO_SPACE_DIRECTORY,
+        cdn: env.DO_SPACE_CDN,
       }
     },
   }, 
@@ -77,3 +83,4 @@ Parameter `DO_SPACE_DIRECTORY` and `DO_SPACE_CDN` is optional and you can ommit 
 <a href="https://github.com/malithmcr"><img src="https://avatars.githubusercontent.com/u/4549859?v=4" title="malithmcr" width="80" height="80"></a>
 <a href="https://github.com/tommasongr"><img src="https://avatars.githubusercontent.com/u/25225746?v=4" title="tommasongr" width="80" height="80"></a>
 <a href="https://github.com/maxep"><img src="https://avatars.githubusercontent.com/u/6815992?v=4" title="maxep" width="80" height="80"></a>
+<a href="https://github.com/anwarpro"><img src="https://avatars.githubusercontent.com/u/47409922?v=4" title="maxep" width="80" height="80"></a>
