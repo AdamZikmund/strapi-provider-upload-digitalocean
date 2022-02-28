@@ -15,19 +15,19 @@ This provider will upload to the space using the AWS S3 API.
 
 1. Install this package
 
-```
+```bash
 npm i strapi-provider-upload-do
 ```
-```
+```bash
 yarn add strapi-provider-upload-do
 ```
-```
+```bash
 pnpm add strapi-provider-upload-do
 ```
 
 2. Create or update config in `./config/plugins.js` with content
 
-```
+```js
 module.exports = ({env}) => ({
   // ...
   upload: {
@@ -48,15 +48,15 @@ module.exports = ({env}) => ({
 
 ```
 
-3. Create `.env` and add to them 
+3. Create `.env` and add provide Digital Ocean config.
 
-```
-DO_SPACE_ACCESS_KEY
-DO_SPACE_SECRET_KEY
-DO_SPACE_ENDPOINT
-DO_SPACE_BUCKET
-DO_SPACE_DIRECTORY
-DO_SPACE_CDN
+```bash
+DO_SPACE_ACCESS_KEY=
+DO_SPACE_SECRET_KEY=
+DO_SPACE_ENDPOINT=
+DO_SPACE_BUCKET=
+DO_SPACE_DIRECTORY=
+DO_SPACE_CDN=
 ```
 
 with values obtained from tutorial:
