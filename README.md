@@ -19,20 +19,27 @@ This provider will upload to the space using the AWS S3 API.
 npm i strapi-provider-upload-do
 ```
 
-2. Create config in `./extensions/upload/config/settings.js` with content
+2. Create or update config in `./config/plugins.js` with content
 
 ```
-module.exports = {
-  provider: "do",
-  providerOptions: {
-    key: process.env.DO_SPACE_ACCESS_KEY,
-    secret: process.env.DO_SPACE_SECRET_KEY,
-    endpoint: process.env.DO_SPACE_ENDPOINT,
-    space: process.env.DO_SPACE_BUCKET,
-    directory: process.env.DO_SPACE_DIRECTORY,
-    cdn: process.env.DO_SPACE_CDN,
-  }
-}
+module.exports = ({env}) => ({
+  // ...
+  upload: {
+    config: {
+      provider: "strapi-provider-upload-do", 
+      providerOptions: {
+        key: process.env.DO_SPACE_ACCESS_KEY,
+        secret: process.env.DO_SPACE_SECRET_KEY,
+        endpoint: process.env.DO_SPACE_ENDPOINT,
+        space: process.env.DO_SPACE_BUCKET,
+        directory: process.env.DO_SPACE_DIRECTORY,
+        cdn: process.env.DO_SPACE_CDN,
+      }
+    },
+  }, 
+  // ...
+})
+
 ```
 
 3. Create `.env` and add to them 
