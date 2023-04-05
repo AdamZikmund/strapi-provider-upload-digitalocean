@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-do",
-  "version": "3.6.8",
+  "version": "3.6.9",
   "description": "Digital ocean spaces provider for Strapi upload plugin",
   "homepage": "http://strapi.io",
   "keywords": [
@@ -15,8 +15,8 @@
   },
   "main": "./lib",
   "dependencies": {
-    "aws-sdk": "2.388.0",
-    "urijs": "^1.19.6"
+    "aws-sdk": "2.1350.0",
+    "urijs": "1.19.6"
   },
   "strapi": {
     "isProvider": true
