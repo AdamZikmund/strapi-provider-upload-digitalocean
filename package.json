@@ -1,42 +1,37 @@
 {
-  "name": "strapi-provider-upload-digitalocean",
-  "version": "3.0.0-alpha.18.1",
+  "name": "strapi-provider-upload-do",
+  "version": "3.6.9",
   "description": "Digital ocean spaces provider for Strapi upload plugin",
   "homepage": "http://strapi.io",
   "keywords": [
     "upload",
     "digitalocean",
     "spaces",
-    "strapi"
+    "strapi",
+    "provider"
   ],
   "directories": {
     "lib": "./lib"
   },
   "main": "./lib",
   "dependencies": {
-    "aws-sdk": "2.388.0"
+    "aws-sdk": "2.1350.0",
+    "urijs": "1.19.6"
   },
   "strapi": {
     "isProvider": true
   },
   "author": {
-    "email": "adam@qusion.com",
-    "name": "Qusion s.r.o.",
-    "url": "https://qusion.com"
+    "email": "stanley@hsjm.io",
+    "name": "Stanley Horwood",
+    "url": "https://hsjm.io"
   },
-  "maintainers": [
-    {
-      "name": "Adam Zikmund",
-      "email": "adam@qusion.com",
-      "url": "https://qusion.com"
-    }
-  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/AdamZikmund/strapi-provider-upload-digitalocean.git"
+    "url": "git://github.com/shorwood/strapi-provider-upload-do.git"
   },
   "bugs": {
-    "url": "https://github.com/AdamZikmund/strapi-provider-upload-digitalocean/issues"
+    "url": "https://github.com/shorwood/strapi-provider-upload-do/issues"
   },
   "engines": {
     "node": ">= 10.0.0",
